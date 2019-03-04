@@ -1,12 +1,14 @@
-import { createMuiTheme } from '@material-ui/core/styles';
+import { createMuiTheme } from "@material-ui/core/styles";
 
-import {primaryBlue} from './colors'
-
+import { primaryBlue } from "./colors";
 
 const theme = createMuiTheme({
-    palette: {
-      primary: primaryBlue,
-    },   
-  });
+  palette: {
+    primary: primaryBlue
+  },
+  typography: {
+    useNextVariants: true
+  }
+});
 
-export default theme  
+export default theme;
